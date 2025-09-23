@@ -1,6 +1,6 @@
 // src/components/Replica_IMG_01.jsx
 import Image from "next/image"; 
-import GradientSlideButton from "../sections/Items/GradientButton";
+import GradientSlideButton from "./Items/GradientButton";
 import GradientText from "./Items/GradientText";
 
 const Section1 = () => {
