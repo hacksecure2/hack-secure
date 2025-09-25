@@ -2,49 +2,64 @@ import GradientText from "../Items/GradientText";
 
 const solutionColumns = [
   {
-    title: "By Use Case",
-    links: [
-      "Ransomware Protection",
-      "Phishing and Scam Protection",
-      "Bot Protection",
-      "Dark Web and Deep Web Monitoring",
-      "Data Leak Detection",
-      "Anti-Piracy",
-      "Building CTI Program",
-    ],
+    title: "Quiz",
+    links: [],
   },
   {
-    title: "By Role",
-    links: [
-      "CISO",
-      "Head of Fraud",
-      "Head of Brand Protection",
-      "Head of Threat Intelligence",
-    ],
+    title: "Top Investigations",
+    links: [],
   },
   {
-    title: "By Industry",
-    links: [
-      "Law Enforcement",
-      "Regulatory Compliance",
-      "Retail and e-Commerce",
-      "Crypto Industry",
-      "Governments",
-      "Telecom and Service Providers",
-      "Online Gambling and Betting",
-      "Financial Services",
-      "Insurance Sector",
-      "OT/ICS Cybersecurity",
-      "Manufacturing Industry",
-    ],
+    title: "Blogs and Articles",
+    links: [],
+  },
+  {
+    title: "Tools",
+    links: [],
+  },
+  {
+    title: "Checklist and Template",
+    links: [],
+  },
+  {
+    title: "Audiobooks",
+    links: [],
+  },
+  {
+    title: "Events",
+    links: [],
+  },
+  {
+    title: "Micro Modules",
+    links: [],
+  },
+  {
+    title: "Podcasts",
+    links: [],
+  },
+  {
+    title: "Reports",
+    links: [],
+  },
+  {
+    title: "Cyber Laws and Policies",
+    links: [],
+  },
+  {
+    title: "Training Programs",
+    links: [],
+  },
+  {
+    title: "Community Projects",
+    links: [],
   },
 ];
 
 const SolutionsTab = () => {
   return (
-    <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 gap-8 py-8 text-gray-400">
+    <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 text-center gap-8 py-8 text-gray-400">
       {solutionColumns.map((col) => (
-        <div key={col.title} className="text-start">
+        <div key={col.title} className="text-center">
           <div className="mb-6 ">
             <GradientText
               className="text-md md:text-lg lg:text-xl  leading-tight"

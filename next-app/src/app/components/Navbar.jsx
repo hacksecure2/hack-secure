@@ -85,7 +85,7 @@ const Navbar = () => {
               href="auth"
               className="px-5 py-2 border-2 border-blue-600 rounded-full text-white hover:bg-blue-600 hover:text-black font-semibold transition-all duration-300"
             >
-              Sign in
+              Sign Up
             </a>
           </div>
 

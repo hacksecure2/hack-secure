@@ -8,9 +8,8 @@ import SolutionsTab from "./tabs/SolutionsTab";
 import GradientText from "./Items/GradientText";
 
 const TABS = {
-  PRODUCTS: "Products",
   SERVICES: "Services",
-  SOLUTIONS: "Solutions",
+  SOLUTIONS: "LearnX",
 };
 
 const Replica_PlatformSection = () => {
@@ -18,8 +17,6 @@ const Replica_PlatformSection = () => {
 
   const renderContent = () => {
     switch (activeTab) {
-      case TABS.PRODUCTS:
-        return <ProductsTab />;
       case TABS.SERVICES:
         return <ServicesTab />;
       case TABS.SOLUTIONS:
@@ -34,21 +31,21 @@ const Replica_PlatformSection = () => {
       <div className="max-w-7xl mx-auto text-center">
         {/* Header Content */}
         <h2 className="text-4xl md:text-5xl  leading-tight">
-          Powering cybersecurity <br /> intelligence with
+          Build for next-gen
+          <br /> learners and innovators.
         </h2>
-          <GradientText
-            className="text-4xl md:text-5xl lg:text-6xl  leading-tight"
-            gradientFrom="from-blue-400"
-            gradientTo="to-blue-200"
-          >
-            Group-IB Unified Risk Platform
-          </GradientText>
-        
+        <GradientText
+          className="text-5xl md:text-6xl lg:text-7xl  leading-tight"
+          gradientFrom="from-blue-400"
+          gradientTo="to-blue-200"
+        >
+          Hack-Secure
+        </GradientText>
+
         <p className="max-w-3xl mx-auto text-lg text-gray-400 mb-12">
-          Understands the threat actors targeting your organization and
-          optimizes your defenses against them. With intelligence at its core,
-          Group-IB’s cybersecurity platform effectively prevents breaches, fraud
-          and other cyber threats
+          where global learners come to master cybersecurity, secure digital
+          assets, and lead the transformation of our digital world. All in one
+          comprehensive platform.
         </p>
 
         {/* Tab Navigation */}

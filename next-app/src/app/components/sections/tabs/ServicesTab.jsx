@@ -2,42 +2,26 @@ import GradientText from "../Items/GradientText";
 
 const serviceColumns = [
   {
-    title: "Audit & Consulting",
-    links: [
-      "Penetration Testing",
-      "Security Assessment",
-      "Compliance & Consulting",
-      "Red Teaming",
-    ],
+    title: "Workshops",
+    links: [],
   },
   {
-    title: "Education & Training",
-    links: [
-      "Training for Technical Specialists",
-      "Cybersecurity Awareness Workshop",
-      "Incident Response Simulation Game",
-      "All Training Programs",
-    ],
+    title: "Sessions",
+    links: [],
   },
   {
-    title: "Digital Forensics & Incident Response",
-    links: [
-      "Incident Response",
-      "Incident Response Retainer",
-      "Incident Response Readiness Assessment",
-      "Compromise Assessment",
-      "Digital Forensics",
-    ],
+    title: "Webinars",
+    links: [],
   },
   {
-    title: "Hi-Tech Crime Investigation",
-    links: ["Cyber Investigation", "Investigation Subscription"],
+    title: "Cyber Investigation",
+    links: [],
   },
 ];
 
 const ServicesTab = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 text-start md:grid-cols-4 gap-8 py-8 text-gray-400">
+    <div className="grid grid-cols-1 sm:grid-cols-1 text-center md:grid-cols-1 gap-8 py-8 text-gray-400">
       {serviceColumns.map((col) => (
         <div key={col.title}>
           <div className="mb-6">
@@ -66,6 +50,5 @@ const ServicesTab = () => {
     </div>
   );
 };
-
 
 export default ServicesTab;
