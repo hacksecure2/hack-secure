@@ -5,10 +5,11 @@ const Feature = () => {
   const data = [
     {
       logo: "",
-      head: "Threat Intelligence",
+      head: "WHY HACK SECURE",
       title: "Understand adversaries",
       description:
-        "Supercharge your cyber security and defeat attacks before they begin with knowledge of how, when, where and why threat actors will strike.",
+        "Discover what makes Hack Secure the trusted choice for cybersecurity excellence
+.",
     },
     {
       logo: "",
