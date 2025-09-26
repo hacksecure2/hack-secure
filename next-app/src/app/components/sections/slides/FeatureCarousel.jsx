@@ -5,7 +5,7 @@ import GradientText from "../Items/GradientText";
 const FeatureCarousel = () => {
   const data = [
     {
-      head: "Threat Intelligence",
+      head: "WHY HACK SECURE",
       title: "Understand adversaries",
       description:
         "Supercharge your cyber security and defeat attacks before they begin.",
