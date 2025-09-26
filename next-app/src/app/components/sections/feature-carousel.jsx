@@ -13,24 +13,26 @@ const Feature = () => {
     },
     {
       logo: "",
-      head: "Fraud Protection",
+      head: "Empower",
       title: "Eliminate fraud",
       description:
-        "Protect your business and customers from all online fraud risks with real-time fraud prevention and client-side digital identity protection.",
+        "We offer a wide range of services from expert-led webinars and sessions to hands-on workshops and real-world cyber investigation support. Whether you're looking to learn, train, or secure, our services are designed to deliver impact and build resilience across every level.
+.",
     },
     {
       logo: "",
-      head: "Managed XDR",
-      title: "Detect and disrupt attacks",
+      head: "INNOVATE",
+      title: "Innovate with Hack Secure: Partnering for a Safer Cyber World",
       description:
-        "Stop attacks in their tracks with real-time threat detection and response for your endpoints, network, infrastructure, and email.",
+        "Partner with Hack Secure to drive innovation, share knowledge, make a global impact in cybersecurity. From academic and corporates to communities and international. We welcome partnerships that aim to build a safer world..",
     },
     {
       logo: "",
-      head: "Attack Surface Management",
-      title: "Manage your attack surface",
+      head: "Cybersecurity Education, Reinvented
+",
+      title: "The Next Generation of Cybersecurity Education",
       description:
-        "Continuously monitor and manage your attack surface to identify and remediate vulnerabilities before they can be exploited.",
+        "HackSecure LearnX is your gateway to real-world cybersecurity learning. Dive into expert-curated content, live sessions, CTFs, case studies, and hands-on challenges all built to sharpen your skills and fuel your growth. Whether you're a beginner or a pro, there's always more to explore..",
     },
   ];
 
